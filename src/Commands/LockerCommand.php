@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Wit3\Locker\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LockerCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-model-lock';
 
     public $description = 'My command';
 
